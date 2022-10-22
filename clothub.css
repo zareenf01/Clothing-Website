@@ -40,19 +40,7 @@ nav a{
   0%{left: -12.5rem;}
   100%{left: -0.1rem;}
 }
-.header input{
-  display: none;
-}
-label{
-  font-size: 2rem;
-  color: #9c47fc;
-    display:block;
-    background: -webkit-linear-gradient(#6b0ed4, #be78cc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    visibility: hidden;
-    opacity: 0;
-}
+
 i{
     font-size: 1.8rem;
     margin: 1.4rem;
