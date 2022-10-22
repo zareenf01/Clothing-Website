@@ -112,7 +112,7 @@ i:hover{
     100%{opacity: 1;}
   }
   .btn:hover{
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
     color: #fff;
     text-decoration: none;
     cursor: pointer;
@@ -188,24 +188,6 @@ i:hover{
   transform: rotateY(180deg);
   
 }
-/*.box2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-.outfit{
-  position: relative;
-  width: 110px;
-  display: flex;
-}
-.box2,.outfit{
-  position: relative;
-  
-  
-  transition: 0.5s;
-}*/
-
 .outfit1,.outfit2,.outfit3,.outfit4{
   height: 18.7rem;
   width: 15.6rem;
@@ -403,12 +385,8 @@ width: 4.37rem;}
  
 }
 @media (max-width:768px){
-  label{
-      visibility: visible;
-      opacity: 1;
-  }
-
-  html{
+  
+html{
     font-size: 45%;
   }
 }
