@@ -1,0 +1,426 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+  
+}
+body{
+  overflow-x: hidden;
+}
+.container{
+ margin-inline: auto;
+ width: min(100%,80.5rem);
+ 
+}
+.header{
+    background-image: url("wave.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 98.5vh;
+    
+}
+
+.logo{
+    height: 20vh;
+    position: relative; 
+    top: 1.4rem;  
+}
+nav a{
+    color: rgb(14, 14, 54) ;
+    text-decoration: none;
+    padding: 0.7rem;
+    margin: 0.7rem;
+    position: relative;
+    top: -1.7rem;
+    animation: nav 2s forwards;
+}
+@keyframes nav {
+  0%{left: -12.5rem;}
+  100%{left: -0.1rem;}
+}
+.header input{
+  display: none;
+}
+label{
+  font-size: 2rem;
+  color: #9c47fc;
+    display:block;
+    background: -webkit-linear-gradient(#6b0ed4, #be78cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    visibility: hidden;
+    opacity: 0;
+}
+i{
+    font-size: 1.8rem;
+    margin: 1.4rem;
+    color: #9c47fc;
+    display:block;
+    background: -webkit-linear-gradient(#6b0ed4, #be78cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    left: 35rem;
+    top: -1.5rem;
+}
+
+.girl{
+    height: 30rem;
+    max-width: 100%;
+    position: relative;
+    left: 3rem;
+    top: -3.7rem;
+    opacity: 0;
+    animation: girl 2s 2s forwards;
+}
+@keyframes girl {
+  0%{opacity:0;}
+  100%{opacity: 1;}
+}
+a:hover{
+    text-decoration: underline #fff;
+}
+i:hover{
+   font-size: 2rem;
+   cursor: pointer;
+}
+.box{
+    display: flex;
+}
+
+.btn:hover {
+    background-position: right center; 
+}
+  .btn{
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  }
+           
+           
+  .btn{
+    background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
+    margin: 0.6rem;
+    padding: 0.6rem 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 0.8rem;
+    display: block;
+    height: 2.7rem;
+    border: none;
+    position: relative;
+    top: 2rem;
+    left: 11rem;
+    opacity: 0;
+    cursor: pointer;
+    animation: btn 2s 2s forwards;
+  }
+  @keyframes btn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+  .btn:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .head{
+    font-size: 3.6rem;
+    position: relative;
+    top: 7rem;
+    left: -2rem;
+    color: rgb(118, 57, 33);
+    animation: heading 2s forwards;
+    
+  }
+  @keyframes heading {
+    0%{top: -5rem;}
+    100%{top: 6rem;}
+  }
+  .heading{
+    display: inline-block;
+    font-size: 2.3rem;
+    font-weight: 900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: -9rem;
+    left: 2rem;
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #96b9d6, #533496);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    
+    
+  }
+  .user{
+    background-color: rgb(33, 13, 78);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    height: 2vh
+}
+
+.img1,.img2,.img3{
+  padding: 1rem;
+  margin: 1rem;
+  height: 75vh;
+  position: relative;
+  top: 7rem;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.img3{
+  width: 50vw;
+  position: relative;
+  left: 20rem;
+  margin: 2.4rem;
+  
+}
+.img2{
+  position: relative;
+  left: 2.5rem;
+}
+.img1:hover,.img2:hover,.img3:hover{
+  cursor: pointer;
+  box-shadow: 0 0 20px rgb(152, 147, 147);
+  border-radius: 0.6rem;
+  transform: rotateY(180deg);
+  
+}
+/*.box2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.outfit{
+  position: relative;
+  width: 110px;
+  display: flex;
+}
+.box2,.outfit{
+  position: relative;
+  
+  
+  transition: 0.5s;
+}*/
+
+.outfit1,.outfit2,.outfit3,.outfit4{
+  height: 18.7rem;
+  width: 15.6rem;
+  display:flex;
+}
+.box2{
+  width: 90%;
+  padding: 5rem;
+  margin: 6.2rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.outfits{
+  display: flex;
+  width: 225vw;
+  margin: 0 4.3rem;
+  box-shadow: 0 0 20px 2px rgb(0, 0, 0, .1);
+  transition: 1.5s;
+}
+outfits img{
+  display: block;
+  width: 100%;
+}
+.outfit1:hover,.outfit2:hover,.outfit3:hover,.outfit4:hover{
+  transform: scale(1.3);
+  z-index: 2;
+  cursor: pointer;
+}
+.box3{
+  display: flex;
+  padding: 0.6rem;
+}
+h2{
+  padding: 0.3rem;
+  margin: 1.7rem;
+  position: relative;
+  top: -10rem;
+  left: 10rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+}
+#brand{
+  padding: 0.6rem;
+  margin: 1rem;
+  font-size: 3.4rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  position: relative;
+  top: -5rem;
+  color: rgb(146, 121, 100);
+}
+#tagline{
+  color: rgb(5, 5, 5);
+  font-size: 1.7rem;
+  padding: 0.6rem;
+  margin: 1rem;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 300;
+  position: relative;
+  top: -6rem;
+}
+.footer{
+  height: 80vh;
+  background-color: rgb(41, 40, 40);
+}
+h1{
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  padding: 0.6rem;
+  margin: 1rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+.para{
+    height: 45vh;
+    position: relative;
+    top: -6rem;
+    box-shadow: 0 0 20px 2px rgb(0, 0, 0, .1);
+    transition: 2s;
+   
+}
+.para:hover{
+  background: linear-gradient(0deg, rgba(33,199,201,1) 2%, rgba(151,190,236,1) 50%, rgba(228,195,233,1) 90%);
+  color:white;
+}
+p{
+  padding: 3.12rem;
+  margin: 1.9rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+  
+}
+.content{
+  display: flex;
+}
+h3{
+  color: white;
+  font-size: large;
+  padding: 1rem;
+  margin: 2.1rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  position: relative;
+  left: 20rem;
+ 
+}
+.footer h3::before{
+  content: '';
+  position: absolute;
+  left: 1.2rem;
+  bottom: -0.6rem;
+  background-color: rgb(121, 62, 62);
+  height: 0.12rem;
+  box-sizing: border-box;
+width: 4.37rem;}
+
+#link1,#link2,#link3,#link4{
+  display: block;
+    color:  rgb(182, 182, 182);
+    text-decoration: none;
+    padding: 0.6rem;
+    margin: 0.6rem;
+    position: relative;
+    left: 35.9rem;
+    overflow: hidden;
+}
+#link1:hover,#link2:hover,#link3:hover,#link4:hover,#link5:hover,#link6:hover,#link7:hover,#link8:hover{
+  color: #fff;
+}
+
+#link5,#link6,#link7,#link8{
+  display: block;
+    color: rgb(182, 182, 182);
+    text-decoration: none;
+    padding: 0.6rem;
+    margin: 0.6rem;
+    position: relative;
+    left: 45.5rem;
+    top: -12.1rem;
+    overflow: hidden;
+}
+#link9,#link10,#link11,#link12{
+  display: block;
+    color: rgb(182, 182, 182);
+    text-decoration: none;
+     padding: 0.6rem;
+    margin: 0.6rem;
+    position: relative;
+    left: 55.3rem;
+    top: -24.2rem;
+    overflow: hidden;
+}
+#link9:hover,#link10:hover,#link11:hover,#link12:hover,#link13:hover,#link14:hover,#link15:hover{
+  color: white;
+}
+#link13,#link14,#link15{
+  display: block;
+    color: rgb(182, 182, 182);
+    text-decoration: none;
+    padding: 0.6rem;
+    margin: 0.6rem;
+    position: relative;
+    left: 64.5rem;
+    top: -36.4rem;
+    overflow: hidden;
+}
+.icon{
+  display: flex;
+}
+#twitter,#insta,#fb{
+  font-size: 1.87rem;
+    margin: 1.4rem;
+    color: #9c47fc;
+    display: block;
+    background: -webkit-linear-gradient(#656466, #f7f7f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    left: -0.06rem;
+    top: -45rem;
+}
+#twitter:hover,#insta:hover,#fb:hover{
+  font-size: 2rem;
+  cursor: pointer;
+}
+@media (max-width:1200px){
+  html{
+    font-size: 55%;
+  }
+ 
+}
+@media (max-width:768px){
+  label{
+      visibility: visible;
+      opacity: 1;
+  }
+
+  html{
+    font-size: 45%;
+  }
+}
