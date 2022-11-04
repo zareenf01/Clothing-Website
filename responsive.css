@@ -1,0 +1,72 @@
+
+@media only screen and (max-width: 700px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header {
+    max-height: 60vh;
+  }
+  .box-content h1 {
+    padding-left: 2rem;
+  }
+  .girl {
+  height: 30rem;
+  max-width: 100%;
+  position: relative;
+  top: -5rem;
+  opacity: 0;
+}
+
+    .col-1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+  .col-1 img {
+    width:300px;
+    height: 300px;
+  }
+  .para {
+  height: 25vh;
+
+}
+.outfit1,
+.outfit2,
+.outfit3,
+.outfit4 {
+  height: 18.7rem;
+  width: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box3 h2 {
+  padding: 0.3rem;
+  margin: 1rem;
+  position: relative;
+  top: -10rem;
+  left: 10rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+}
+  footer h3 {
+  color: white;
+  font-size: small;
+  padding: 1rem;
+  margin: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  position: relative;
+  left: 5rem;
+} 
+  footer h3::before {
+  content: "";
+  position: absolute;
+  left: 1rem;
+  bottom: -0.6rem;
+  background-color: rgb(121, 62, 62);
+  height: 0.12rem;
+  box-sizing: border-box;
+  width: 1rem;
+}
+}
