@@ -1,114 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"  />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"  />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clothby</title>
-    <link rel="stylesheet" href="./clothub.css">
-    <script src="https://kit.fontawesome.com/a17093455e.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <div class="container">
-        <div id="homePage">
-        <div class="header">
-            <nav>
-                
-                <img src="./images/clothlogo.png" class="logo">
-                <a href="#homePage">Home</a>
-                <a href="#aboutPage">About</a>
-                <a href="#collectionPage">Collection</a>
-                <a href="#categoryPage">Category</a>
-                <i class="fa-solid fa-heart"></i>
-                <i class="fa-solid fa-cart-arrow-down"></i>
-            </nav>
-            <div class="box">
-                <button class="btn">2022 Collection</button>
-                <h1 class="head">You should always feel pretty...</h1>
-            <img src="./images/girl-img.png" class="girl">
-            </div>
-            </div>
+    <link rel="stylesheet" href="./clothub.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <script
+      src="https://kit.fontawesome.com/a17093455e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="container">
+      <div class="header">
+        <nav>
+          <img src="./images/clothlogo.png" class="logo" alt="clothlogo" />
+          <a href="#homePage">Home</a>
+          <a href="#aboutPage">About</a>
+          <a href="#collectionPage">Collection</a>
+          <a href="#categoryPage">Category</a>
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-cart-arrow-down"></i>
+        </nav>
+        <div class="box">
+         <div class="box-content">
+             <button class="btn">2022 Collection</button>
+             <h1 class="head">You should always feel pretty...</h1>
+         </div>
+         <img src="./images/girl-img.png" class="girl" alt="girl-img" />
         </div>
-        
-        <div class="user">Extra 10% Instant Discount for all FIRST USERS. use code 'WELCOME' and get 10% discount on your first order</div>
-        <div id="collectionPage">
-        <div class="collection"> 
-            <img src="./images/img2.jpg" class="img1"> 
+      </div>
+    </section>
+    <section class="collection">
+        <div class="user">
+            Extra 10% Instant Discount for all FIRST USERS. use code 'WELCOME' and
+            get 10% discount on your first order
+        </div>
+        <div class="img-collection">
             <h2 class="heading">COLLECTIONS</h2>
-            <img src="./images/img1.jpg" class="img2"> 
-            <img src="./images/img3.jpg" class="img3"> 
-        </div>
-        </div>
-        <div id="categoryPage">
-            <div class="box2">
-                <div class="outfits">
-                    <img src="./images/outfit1.jpg" class="outfit1">
-                    <img src="./images/outfit2.webp" class="outfit2">
-                    <img src="./images/outfit3.jpg" class="outfit3">
-                    <img src="./images/outfit4.webp" class="outfit4">
-                </div> 
+            <div class="col-1">
+                <img src="./images/img2.jpg" class="img1" alt="img-2" />
+                <img src="./images/img1.jpg" class="img2" alt="img-1" />
+                <img src="./images/img3.jpg" class="img3" alt="img-3" />
             </div>
         </div>
-            <div class="box3">
-               
-                <h2 >WINTER WEAR</h2>
-                <h2>NEW ARRIVALS</h2>
-                <h2>TRENDY JEANS</h2>
-                <h2>HOT DRESSES</h2>
-                
-            </div>
-            <div id="aboutPage">
-            <div class="about">
-                <h1 id="brand">
-                    ClotHub
-                </h1>
-                <h1 id="tagline">Clothes that talks on behalf of you!</h1>
-                <div class="para">
-                   <p>Clothub is a leading fashion brand that provides trendy contemporary clothing for both men and women. Clothub has more than 5 years of combined experience in distribution. After launching our first website in 2017, Clothub continues to grow and expand, keeping our costumers satisfied and always wanting more.</p>
-                </div>
-                </div>
-            </div>
-            <div class="footer">
-                <div class="content">
-                <h1>
-                    ClotHub
-                </h1>
-                <h3>Links</h3>
-                <h3>Company</h3>
-                <h3>Help</h3>
-                <h3>Connect</h3>
-                </div>
+    </section>
 
-                <div class="links">
-                    <a href="#homePage" id="link1">Home</a>
-                    <a href="#" id="link2">Collections</a>
-                    <a href="#" id="link3">Category</a>
-                    <a href="#" id="link4">Services</a>
-                </div>
-                <div class="links2">
-                    <a href="#" id="link5">About</a>
-                    <a href="#" id="link6">Blog</a>
-                    <a href="#" id="link7">Partnerships</a>
-                    <a href="#" id="link8">Careers</a>
-                </div>
-                <div class="links3">
-                    <a href="#" id="link9">FAQ</a>
-                    <a href="#" id="link10">Payment</a>
-                    <a href="#" id="link11">Shipping</a>
-                    <a href="#" id="link12">Contact Us</a>
-                </div>
-                <div class="links4">
-                    <a href="#https://twitter.com/ZareenFatima01" id="link13">Twitter</a>
-                    <a href="#" id="link14">Instagram</a>
-                    <a href="#" id="link15">Facebook</a>
-                </div>
-                <div class="icon">
-                    <i class="fa-brands fa-twitter" id="twitter"></i>
-                    <i class="fa-brands fa-instagram" id="insta"></i>
-                    <i class="fa-brands fa-facebook" id="fb"></i>
-                </div>
-    </div>
-    </div>
-    
-</body>
+    <section id="categoryPage">
+      <div class="box2">
+        <div class="outfits">
+          <img src="./images/outfit1.jpg" class="outfit1" />
+          <img src="./images/outfit2.webp" class="outfit2" />
+          <img src="./images/outfit3.jpg" class="outfit3" />
+          <img src="./images/outfit4.webp" class="outfit4" />
+        </div>
+      </div>
+    </section>
+    <section class="box3">
+      <h2>WINTER WEAR</h2>
+      <h2>NEW ARRIVALS</h2>
+      <h2>TRENDY JEANS</h2>
+      <h2>HOT DRESSES</h2>
+    </section>
+    <section class="about">
+        <h1 id="brand">ClotHub</h1>
+        <h1 id="tagline">Clothes that talks on behalf of you!</h1>
+        <div class="para">
+            <p>
+            Clothub is a leading fashion brand that provides trendy contemporary
+            clothing for both men and women. Clothub has more than 5 years of
+            combined experience in distribution. After launching our first
+            website in 2017, Clothub continues to grow and expand, keeping our
+            costumers satisfied and always wanting more.
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+      <div class="content">
+        <h1>ClotHub</h1>
+        <h3>Links</h3>
+        <h3>Company</h3>
+        <h3>Help</h3>
+        <h3>Connect</h3>
+      </div>
+      <div class="link-container">
+          <div class="link-text">
+              <div class="link">
+                <a href="#homePage" id="link1">Home</a>
+                <a href="#" id="link2">Collections</a>
+                <a href="#" id="link3">Category</a>
+                <a href="#" id="link4">Services</a>
+              </div>
+              <div class="link">
+                <a href="#" id="link5">About</a>
+                <a href="#" id="link6">Blog</a>
+                <a href="#" id="link7">Partnerships</a>
+                <a href="#" id="link8">Careers</a>
+              </div>
+              <div class="link">
+                <a href="#" id="link9">FAQ</a>
+                <a href="#" id="link10">Payment</a>
+                <a href="#" id="link11">Shipping</a>
+                <a href="#" id="link12">Contact Us</a>
+              </div>
+          </div>
+          <!-- link icon -->
+          <div class="link-icon">
+              <div class="links4">
+                <a href="#https://twitter.com/ZareenFatima01" id="link13">Twitter</a>
+                <a href="#" id="link14">Instagram</a>
+                <a href="#" id="link15">Facebook</a>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-twitter" id="twitter"></i>
+                <i class="fa-brands fa-instagram" id="insta"></i>
+                <i class="fa-brands fa-facebook" id="fb"></i>
+              </div>
+          </div>
+      </div>
+    </footer>
+  </body>
 </html>
